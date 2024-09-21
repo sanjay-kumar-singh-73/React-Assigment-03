@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800&display=swap');
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 5px black;
+}
+
+.header .logo{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.header .logo .icon{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+.header .logo img{
+    width: 140px;
+    cursor: pointer;
+}
+
+.header .nav-links ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header .nav-links ul li .drop{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+.header .nav-links ul li a{
+    font-size: 16px;
+    color: rgb(95, 86, 86);
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.header .Button{
+    display: flex;
+    gap: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.header .Button .btn{
+    display: flex;
+    width: 100px;
+    height: 37px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+   background-color:transparent;
+   cursor: pointer;
+   transition: .4s;
+   color: rgb(80, 59, 59);
+}
+.header .Button #log:hover{
+    color: rgb(170, 81, 81);
+}
+.header .Button #sign{
+    color: #fff;
+    background-color:rgb(65, 160, 65);
+}
+.header .Button #sign:hover{
+    background-color: green;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+    }
+  
+    .nav-links-mobile li {
+      margin: 20px 0;
+    }
+  }
+  
+  @media (max-width:767px){
+    .header .Button{
+        display: block;
+    }
+  }
+  @media (max-width:1200px){
+    .header .Button{
+        display: none;
+    }
+  }
+  @media (max-width:460px){
+    .header .Button{
+        display: none;
+    }
+  }

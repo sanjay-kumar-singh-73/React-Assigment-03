@@ -1,0 +1,83 @@
+/* HeroSection.css */
+.hero-container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f8f9fb;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    padding-top: 250px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .hero-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .hero-list li {
+    font-size: 1.2rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .hero-buttons {
+    margin-top: 20px;
+  }
+  
+  .start-button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .how-it-works-button {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #4caf50;
+    color: #4caf50;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hero-image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-image {
+    width: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .hero-person {
+    width: 100px;
+    height: 250px;
+    background-color: #6c757d;
+    border-radius: 50%;
+    position: absolute;
+    right: -60px;
+    top: 20px;
+  }
+  
